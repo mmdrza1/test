@@ -1,0 +1,156 @@
+.v-application {
+  font-family: "Yekan" !important;
+}
+
+@font-face {
+  font-family: "Yekan";
+  font-style: normal;
+  font-weight: 400;
+  src: url("~assets/fonts/Yekan.ttf") format("truetype");
+}
+
+a {
+  text-decoration: none !important;
+  color: #6d6e71 !important;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+.relative-position {
+  position: relative !important;
+}
+
+.absolute-position {
+  position: absolute !important;
+}
+
+.bottom-0 {
+  bottom: 0 !important;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.full-width {
+  width: 100% !important;
+}
+.half-width {
+  width: 50% !important;
+}
+
+.full-height {
+  height: 100% !important;
+}
+
+.rounded-5 {
+  border-radius: 5px !important;
+}
+
+.rounded-10 {
+  border-radius: 10px !important;
+}
+
+.rounded-20 {
+  border-radius: 20px !important;
+}
+
+.rounded-24 {
+  border-radius: 24px !important;
+}
+
+.text-bold {
+  font-weight: bold !important;
+}
+
+.white-text {
+  color: #ffffff !important;
+}
+
+.primary-text {
+  color: #e47e7a;
+}
+
+.secondary-text {
+  color: #b5b5b5;
+}
+
+.font-10 {
+  font-size: 10px !important;
+}
+
+.font-12 {
+  font-size: 12px !important;
+}
+
+.font-14 {
+  font-size: 14px !important;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.font-18 {
+  font-size: 18px !important;
+}
+
+.font-20 {
+  font-size: 20px !important;
+}
+
+.font-22 {
+  font-size: 22px !important;
+}
+
+.font-24 {
+  font-size: 24px !important;
+}
+
+.font-26 {
+  font-size: 26px !important;
+}
+
+.font-28 {
+  font-size: 28px !important;
+}
+
+.font-30 {
+  font-size: 30px !important;
+}
+
+.font-32 {
+  font-size: 32px !important;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+.v-btn {
+  letter-spacing: 0 !important;
+  font-size: 18px !important;
+}
+.v-input {
+  .v-input__control {
+    .v-select__slot {
+      label {
+        color: #313039;
+        font-size: 18px;
+      }
+    }
+
+    .v-input__slot {
+      .v-text-field__slot {
+        label {
+          color: #313039;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
